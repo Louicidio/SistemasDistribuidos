@@ -5,10 +5,9 @@ from tkinter import scrolledtext, simpledialog, messagebox
 import sys
 
 # Configuração do cliente
-HOST = "127.0.0.1"  # Troque pelo IP do servidor
-PORT = 5000
+HOST = "172.31.75.183"  # trocas de ip para conectar a outros servidores
+PORT = 5001
 
-# Perguntar nome de usuário
 root = tk.Tk()
 root.withdraw()  # esconder janela principal só para perguntar o nome
 nickname = simpledialog.askstring("Login", "Digite seu nome de usuário:")
